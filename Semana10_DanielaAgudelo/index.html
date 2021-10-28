@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Lab FireBase</title>
+    </head>
+    <body>
+        <div id="containerBtn">
+            <button class="boton" id="btnCandidato">Mirar candidatos</button>
+            <button class="boton" id="btnVotaciones">Mirar votaciones</button>
+        </div>
+        <div id="container">
+            <h1 id="titulo">Lapsus Napoleaón</h1>
+            <h3 id="subtitulo">Registre candidato para la encuesta</h3>
+            <input id="idRegistro" type="text" placeholder="ID" />
+            <input id="nombre" type="text" placeholder="Nombre" />
+            <button class="boton" id="btnRegistrar">Registrar</button>
+            <h3 id="subtutulo2">Vota por el candidato usando su ID</h3>
+            <input id="idvotar" type="text" placeholder="ID" />
+            <button class="boton" id="votar">Votar</button>
+        </div>
+    </body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="js/firebase.js"></script>
+<script src="./js/index.js"></script>
